@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Salir"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="x"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/tvDatos">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivRegresar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_salir1"
+        android:layout_marginRight="50dp"/>
+
+    <ImageView
+        android:layout_marginLeft="200dp"
+        android:id="@+id/ivSalir"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/ic_salir2" />
+</RelativeLayout>
